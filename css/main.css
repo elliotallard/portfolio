@@ -1,0 +1,100 @@
+body {
+	font: 20px "Avenir";
+	line-height: 1.7em;
+	background: #FFFFFF;
+}
+
+h1 {
+	font: 33px "Avenir";
+	text-align: center;
+}
+
+.fadeInShort {
+	opacity: 1;
+	animation-name: fadeInOpacityShorter;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.3s;
+}
+
+.fadeInLong{
+	opacity: 1;
+	animation-name: fadeInOpacityLonger;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+}
+
+img {
+	display:block;
+	margin: auto;
+
+}
+
+@keyframes fadeInOpacityShorter {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInOpacityLonger {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.nav {
+	font: 20px "Avenir";
+	padding: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	padding: 6px;
+	-webkit-transition: opacity 2s;
+}
+
+a:hover {
+	color: white;
+	background-color: #3eba8f;
+	padding: 6px;
+	border-radius: 10px;
+	opacity: 1;
+}
+
+.typewriter h1{
+   overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: 
+    	typing 1.3s steps(10, end), 
+    	blink-caret .75s steps(50, end) infinite;
+}
+
+.typewriter {
+    display: inline-flex;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #3eba8f; }
+}
