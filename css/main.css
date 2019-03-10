@@ -1,3 +1,18 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 100vh;
+}
+
+#section2 {
+  height: 100vh;
+}
+
+
+
+
 body {
 	font: 20px "Avenir";
 	line-height: 1.7em;
@@ -25,11 +40,14 @@ h1 {
 	animation-duration: 5s;
 }
 
+
+
+
 img {
 	display:block;
 	margin: auto;
-
 }
+
 
 @keyframes fadeInOpacityShorter {
 	0% {
@@ -52,9 +70,12 @@ img {
 .nav {
 	font: 20px "Avenir";
 	padding: 1%;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-a {
+.nav a {
 	text-decoration: none;
 	color: #000000;
 	cursor: pointer;
@@ -62,7 +83,7 @@ a {
 	-webkit-transition: opacity 2s;
 }
 
-a:hover {
+.nav a:hover {
 	color: white;
 	background-color: #3eba8f;
 	padding: 6px;

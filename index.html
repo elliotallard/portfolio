@@ -13,15 +13,15 @@
 
 
 <header>
-	<div class="nav fadeInLong">
+	<div class="nav fadeInLong sticky-top">
 		<div class="row">
 			<div class="col-md-8">
-				<a href='index.html'>HOME</a>
+				<a href='#section1'>HOME</a>
 			</div>
   			<div class="col-md-4" style="text-align:right;">
 				<a href='/projects'>PROJECTS</a>
-				<a href='static/resume.pdf'>RESUME</a>
-				<a href='/about'>ABOUT</a>
+				<a href='static/resume.pdf' target="_blank">RESUME</a>
+				<a href='#section2'>ABOUT</a>
 			</div>
 		</div>
 	</div>
@@ -31,20 +31,25 @@
 
 
 <body>
-	<br>
-	<center>
-		<div class="typewriter">	
-			<h1> Hi, I'm Elliot </h1>
-		</div>
+	<div id="section1">
 		<br>
-		<br>
-		<div id="me-picture">
+		<center>
+			<br>
+			<br>
+			<div class="typewriter">	
+				<h1> Hi, I'm Elliot </h1>
+			</div>
+			<br>
+			<br>
+			<!-- <div id="me-picture"> -->
 			<img src="me.jpg" width="40%" height="40%">
-		</div>
-		<h1 class="fadeInLong"> I study information systems and HCI <br /> at Carnegie Mellon University. </h1>
-		<br>
-		<img src="down_icon.png" width="3%" height="3%">
-	</center>
+			<!-- </div> -->
+			<h1 class="fadeInLong"> I study information systems and HCI <br /> at Carnegie Mellon University. </h1>
+			<br>
+			<a href="#section2"><img src="down_icon.png" width="3%" height="3%"></a>
+		</center>
+	</div>
+	<div id="section2">
 </body>
 
 
