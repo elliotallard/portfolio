@@ -22,6 +22,7 @@ body {
 h1 {
 	font: 33px "Avenir";
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 .fadeInShort {
@@ -94,6 +95,16 @@ img {
 	animation-duration: .5s;
 }
 
+.nav a:active {
+	color: white;
+	background-color: #3eba8f;
+	padding: 6px;
+	border-radius: 10px;
+	opacity: 1;
+}
+
+
+/*Citation - https://css-tricks.com/snippets/css/typewriter-effect/*/
 .typewriter h1{
    overflow: hidden;
     border-right: .15em solid orange;
@@ -121,4 +132,10 @@ img {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #3eba8f; }
+}
+
+
+
+#section2 > container {
+	background-color: pink;
 }
