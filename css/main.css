@@ -20,11 +20,12 @@ body {
 	background: #FFFFFF;
 }
 
-h1 {
+#section1 h1 {
 	font: 33px "Avenir";
 	text-align: center;
 	letter-spacing: 2px;
 }
+
 
 .fadeInShort {
 	opacity: 1;
