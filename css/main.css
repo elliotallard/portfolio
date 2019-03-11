@@ -8,6 +8,7 @@ html {
 
 #section2 {
   height: 100vh;
+  vertical-align: middle;
 }
 
 
@@ -134,8 +135,18 @@ img {
   50% { border-color: #3eba8f; }
 }
 
+.span {
+	margin: auto;
+}
 
+#section2 > img {
+	float: right;
+}
 
-#section2 > container {
-	background-color: pink;
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
