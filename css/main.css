@@ -15,8 +15,8 @@ html {
 
 
 body {
-	font: 20px "Avenir";
-	line-height: 1.7em;
+	font: 17px "Avenir";
+	line-height: 1.3em;
 	background: #FFFFFF;
 }
 
@@ -140,8 +140,37 @@ img {
 	margin: auto;
 }
 
-#section2 > img {
+.desc img {
 	float: right;
+}
+
+.links img {
+	float: left;
+}
+
+.github img{
+	float:right;
+}
+
+.linkedin img{
+	float:left;
+}
+
+
+#section2 h1 {
+	font: 45px "Avenir";
+	margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#section2 h3 {
+	font: 22px "Avenir";
+	margin-block-start: 0.0em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .vertical-center {
