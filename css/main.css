@@ -97,13 +97,14 @@ img {
 	animation-duration: .5s;
 }
 
-.nav a:active {
+.nav a.active {
 	color: white;
 	background-color: #3eba8f;
 	padding: 6px;
 	border-radius: 10px;
 	opacity: 1;
 }
+
 
 
 /*Citation - https://css-tricks.com/snippets/css/typewriter-effect/*/
