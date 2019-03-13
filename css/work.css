@@ -26,6 +26,12 @@
 }*/
 
 
+.card-layout-img{
+  display: block;
+  width: 10%;
+  height: 10%;
+}
+
 
 body {
   font: 17px "Avenir";
@@ -79,4 +85,8 @@ img {
   padding: 6px;
   border-radius: 10px;
   opacity: 1;
+}
+
+#right-nav a {
+  margin-left: 1em;
 }
