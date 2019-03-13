@@ -26,12 +26,11 @@
 }*/
 
 
-.card-layout-img{
-  display: block;
-  width: 10%;
-  height: 10%;
+.title {
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
 }
-
 
 body {
   font: 17px "Avenir";
@@ -43,6 +42,14 @@ body {
   font: 33px "Avenir";
   text-align: center;
   letter-spacing: 2px;
+}
+
+.project {
+  transition: all .3s ease-out;
+}
+
+.project:hover {
+  transform: scale(1.05) translateY(4px);
 }
 
 
