@@ -27,9 +27,10 @@
 
 
 .title {
+  font: 41px "Montserrat", "Avenir";
   position: relative;
   margin-top: 15vh;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 body {
@@ -44,12 +45,27 @@ body {
   letter-spacing: 2px;
 }
 
+.section-title {
+  font: 25px "Montserrat", "Avenir";
+  margin-top: 2vh;
+}
+
 .project {
+  font: 17px "Montserrat", "Avenir";
+  color: black;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+.project h4 {
+  font-color: black;
+  text-decoration: none;
   transition: all .3s ease-out;
 }
 
 .project:hover {
   transform: scale(1.05) translateY(4px);
+  text-decoration: none;
 }
 
 
@@ -60,7 +76,7 @@ img {
 
 
 .nav {
-  font: 20px "Avenir";
+  font: 20px "Montserrat", "Avenir";
   padding: 1%;
   position: fixed;
   top: 0;
@@ -80,6 +96,7 @@ img {
   padding: 6px;
   border-radius: 10px;
   opacity: 1;
+  text-decoration: none;
   animation-name: fadeInOpacityShorter;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
