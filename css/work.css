@@ -39,6 +39,12 @@ body {
   background: #FFFFFF;
 }
 
+h1 {
+  font: 40px "Montserrat";
+  position: relative;
+  margin-top: 15vh;
+}
+
 #section1 h1 {
   font: 33px "Avenir";
   text-align: center;
@@ -74,6 +80,19 @@ img {
   margin: auto;
 }
 
+.attachment {
+  display:block;
+  float: left;
+  max-width:25px;
+  width: auto;
+  height: auto;
+}
+
+.video {
+  display: block;
+  width: 100%;
+  height: 50vh;
+}
 
 .nav {
   font: 20px "Montserrat", "Avenir";
@@ -81,6 +100,11 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.nav img{
+  width: 2%;
+  height: 50%;
 }
 
 .nav a {
