@@ -171,6 +171,13 @@ img {
   height: 50vh;
 }
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: right;
+}
+
 .label {
   color: black;
   padding: 7px;
@@ -185,5 +192,5 @@ img {
 }
 
 .indent {
-  text-indent: 2em;
+  margin-left: 3vw;
 }
