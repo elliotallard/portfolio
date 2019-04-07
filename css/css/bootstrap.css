@@ -4466,6 +4466,7 @@ tbody.collapse.show {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-title {
